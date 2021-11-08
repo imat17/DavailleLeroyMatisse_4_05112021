@@ -792,7 +792,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFF!important;
     text-align: center;
 
 }
@@ -829,7 +829,6 @@ h4 {
 }
 
 .square-bg {
-    background-color: #222121a4;
     border-radius: 10px;
 }
 
