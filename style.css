@@ -125,25 +125,6 @@ a:hover {
     border-color: rgba(255, 255, 255, .2);
 }
 
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-   /**
-    color: rgba(255, 255, 255, .6);
-    **/
-}
-
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
@@ -1084,9 +1065,6 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
-
-@media (max-width: 767px) {
     .portfolio-thumb {
         margin: auto;
     }
@@ -1094,7 +1072,12 @@ h4 {
 
 .quotename-center {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
+}
+
+.quote-center {
+    line-height: 25px;
+    font-size: 18px;
 }
 
 .input {
@@ -1111,4 +1094,21 @@ h4 {
 
 .fa {
     color: black;
+}
+
+.contact {
+    font-size: 20px;
+}
+
+.about-us {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.mentions {
+    color: black!important;
+}
+
+.mentions:hover {
+    color: white!important;
 }
